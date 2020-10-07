@@ -18,8 +18,9 @@ biocViews: GenomicRanges, rtracklayer
 Imports: stats, Matrix, lda, text2vec, doSNOW, parallel, plyr, dplyr,
         AUCell (>= 1.2.4), DT, fitdistrplus,
         RcisTarget (>= 1.0.2), ggplot2, data.table,
-        feather, rtracklayer, GenomicRanges, S4Vectors
-Suggests: Rsubread, rGREAT, ChIPseeker, scatterplot3d, plotly, destiny, Rtsne, umap,
+        feather, rtracklayer, GenomicRanges, S4Vectors,
+        Rsubread
+Suggests: rGREAT, ChIPseeker, scatterplot3d, plotly, destiny, Rtsne, umap,
         ComplexHeatmap, fastcluster, TxDb.Dmelanogaster.UCSC.dm6.ensGene,
         TxDb.Dmelanogaster.UCSC.dm3.ensGene,
         TxDb.Hsapiens.UCSC.hg19.knownGene,
